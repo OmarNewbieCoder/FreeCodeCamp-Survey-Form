@@ -1,8 +1,82 @@
 # FreeCodeCamp-Survey-Form
 
-/* HTML at the top and CSS is underneath it */
+/* CSS is here */
 
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+  font-family:'Poppins';
+  line-height: 1.4;
+  width: 600px;
+  margin: auto;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: blue;
+  color: white;
+  border-radius: 90px;
+  cursor: pointer;
+  opacity: 0.55
+}
+
+.input-headings {
+  margins: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-inputs {
+  display: inline-block;
+  width: 90%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  background-color: #fff;
+  border: 1px solid #ced4dn;
+  border-radius: 0.25rem;
+}
+
+form {
+  
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+}
+
+p {
+  text-align: center;
+  color: orange;
+  font-size: 20px;
+}
+
+form {
+  color: orange;
+  font-size: 18px;
+  opacity: 1;
+}
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.mintlogix.com%2Fwp-content%2Fuploads%2F2014%2F09%2Fbackground_23.jpg&f=1&nofb=1");
+ 
+}
+
+body {
+  text-align: center;
+ 
+}
+
+<!--This ".survey" CSS changes everything in the html to make it easier to style all elements.-->
+
+.survey {
+  color: white;
+}
+
+.end-p {
+  font-size: 18px;
+}
+  
+
 
 <!DOCTYPE html>
 <html>
